@@ -48,7 +48,7 @@ Includes metadata about the project (name, author, license, dependencies) and sc
 To install Pure JS via npm, run:
 
 ```sh
-npm install pure-js
+npm install pure-javascript
 ```
 
 ## 📖 Usage
@@ -56,7 +56,7 @@ npm install pure-js
 Import specific polyfills as needed:
 
 ```js
-import "pure-js/override/modules/esnext.symbol.dispose.js";
+import "pure-javascript/override/modules/esnext.symbol.dispose.js";
 
 const obj = {
   [Symbol.dispose]() {
